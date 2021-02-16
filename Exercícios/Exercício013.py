@@ -14,4 +14,3 @@ print("="*30) #Enfeite
 print("O valor do aumento é de: R${:.2f}".format(valor_do_aumento))
 print("Salário reajustado: R${:.2f}".format(salário_com_aumento))
 print("="*30) #Enfeite
-
