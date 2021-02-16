@@ -7,5 +7,5 @@ largura = float(input("Qual é a largura da parede? ")) #O valor da largura ser�
 área = altura*largura #Multiplicação.
 
 print('='*20) #Enfeite
-print("A área da parede é de {}m²\nÉ necessário {} litros para pintar {}m².".format(área, área/2, área)) #Será mostrado à área da parede, e logo em seguida quantos litros serão necessário para pintar a parede.
+print("A área da parede é de {}m²\nÉ necessário {:.1f} litros para pintar {}m².".format(área, área/2, área)) #Será mostrado à área da parede, e logo em seguida quantos litros serão necessário para pintar a parede.
 print('='*20) #Enfeite
